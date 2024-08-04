@@ -1,4 +1,5 @@
 import random
+import time
 
 kullanicilar = list()
 
@@ -50,6 +51,8 @@ while True:
     elif secim==3:
         salla(kullanicilar)
     elif secim == 4:
+        print('Kisi secme alani hesaplaniyor...')
+        time.sleep(4)
         sec(kullanicilar)
     else:
         print('Yanlis secim yaptiniz')
